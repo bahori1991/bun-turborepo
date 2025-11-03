@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@repo/ui": "workspace:*",
+    "@tailwindcss/vite": "catalog:ui",
+    "@tanstack/react-router": "catalog:tanstack",
+    "@tanstack/react-start": "catalog:tanstack",
+    "react": "catalog:ui",
+    "react-dom": "catalog:ui"
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "@types/react": "catalog:typescript",
+    "@types/react-dom": "catalog:typescript",
+    "@types/bun": "catalog:typescript",
+    "@types/node": "catalog:typescript",
+    "@vitejs/plugin-react": "catalog:vite",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vite-tsconfig-paths": "catalog:vite"
+  }
+}

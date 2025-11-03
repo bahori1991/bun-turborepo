@@ -27,6 +27,8 @@ out/
 build
 dist
 
+# tanstack
+.tanstack
 
 # Debug
 npm-debug.log*

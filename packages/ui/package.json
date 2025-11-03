@@ -6,6 +6,12 @@
   "scripts": {
     "ui": "bunx --bun shadcn@latest"
   },
+  "exports": {
+    "./styles.css": "./src/styles/styles.css",
+    "./lib/*": "./src/lib/*.ts",
+    "./hooks/*": "./src/hooks/*.ts",
+    "./components/*": "./src/components/*.tsx"
+  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@repo/tsconfig": "workspace:*",

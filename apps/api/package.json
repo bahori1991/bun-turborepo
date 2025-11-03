@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "hono": "catalog:server"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:typescript"
+  }
+}

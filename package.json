@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "catalog:biome",
-    "turbo": "catalog:tools",
+    "turbo": "catalog:tools"
+  },
+  "peerDependencies": {
     "typescript": "catalog:typescript"
   },
   "engines": {
