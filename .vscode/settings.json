@@ -26,7 +26,24 @@
     "*.css": "tailwindcss"
   },
   "files.readonlyInclude": {
+    "**/node_modules": true,
+    "**/.turbo": true,
+    "**/.tanstack": true,
     "**/routeTree.gen.ts": true,
-    "pnpm-lock.yaml": true
+    "bun.lock": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/.turbo": true,
+    "**/.tanstack": true,
+    "**/routeTree.gen.ts": true,
+    "bun.lock": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.turbo": true,
+    "**/.tanstack": true,
+    "**/routeTree.gen.ts": true,
+    "bun.lock": true
   }
 }
