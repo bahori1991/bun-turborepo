@@ -1,29 +1,27 @@
 {
   "name": "web",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
-  "private": true,
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@repo/tsconfig": "workspace:*",
     "@repo/ui": "workspace:*",
-    "@tailwindcss/vite": "catalog:ui",
     "@tanstack/react-router": "catalog:tanstack",
-    "@tanstack/react-start": "catalog:tanstack",
+    "@tanstack/react-router-devtools": "catalog:tanstack",
     "react": "catalog:ui",
     "react-dom": "catalog:ui"
   },
   "devDependencies": {
-    "@repo/tsconfig": "workspace:*",
+    "@tanstack/router-plugin": "catalog:tanstack",
     "@types/react": "catalog:typescript",
     "@types/react-dom": "catalog:typescript",
-    "@types/bun": "catalog:typescript",
-    "@types/node": "catalog:typescript",
-    "@vitejs/plugin-react": "catalog:vite",
+    "@vitejs/plugin-react-swc": "catalog:vite",
     "typescript": "catalog:typescript",
-    "vite": "catalog:vite",
-    "vite-tsconfig-paths": "catalog:vite"
+    "vite": "catalog:vite"
   }
 }
