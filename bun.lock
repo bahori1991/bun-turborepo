@@ -27,6 +27,7 @@
       "dependencies": {
         "@repo/tsconfig": "workspace:*",
         "@repo/ui": "workspace:*",
+        "@tailwindcss/vite": "catalog:ui",
         "@tanstack/react-router": "catalog:tanstack",
         "@tanstack/react-router-devtools": "catalog:tanstack",
         "react": "catalog:ui",

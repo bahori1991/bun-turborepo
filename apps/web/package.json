@@ -13,6 +13,7 @@
     "@repo/ui": "workspace:*",
     "@tanstack/react-router": "catalog:tanstack",
     "@tanstack/react-router-devtools": "catalog:tanstack",
+    "@tailwindcss/vite": "catalog:ui",
     "react": "catalog:ui",
     "react-dom": "catalog:ui"
   },
